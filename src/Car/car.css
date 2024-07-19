@@ -1,0 +1,223 @@
+.main {
+    margin-left: 100px;
+}
+
+/* front black part  */
+
+.black-box {
+    background-color: #303030;
+    height: 80px;
+    width: 400px;
+    border-radius: 10px 10px 60px 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    position: relative;
+    top: 80%;
+    left: 5.5%;
+}
+
+.headLight-in {
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 10px solid white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 #e1f0fc, inset 0 0 25px 0 #e1f0fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headLight-off {
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 10px solid rgb(138, 133, 133);
+    display: flex;
+    align-items: center;
+    /* box-shadow: 0 0 25px 0 #e1f0fc, inset 0 0 25px 0 #e1f0fc; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headLight-inside {
+    height: 15%;
+    width: 40%;
+    background-color: white;
+    border-radius: 30%;
+    box-shadow: 0 0 25px 0 #e1f0fc, inset 0 0 25px 0 #e1f0fc;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    border-radius: 25% 25% 50% 50%;
+    border: 4px solid white;
+    box-shadow: 0 0 25px 0 #e1f0fc, inset 0 0 25px 0 #e1f0fc;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.logo-left-line {
+    height: '60%';
+    border: 2px solid white;
+    position: relative;
+    top: 1px;
+    bottom: 2px;
+    border-radius: 15px;
+    /* margin-left:'20px' */
+    transform: rotate(-6deg);
+}
+
+.logo-right-line {
+    height: '60%';
+    position: relative;
+    top: 1px;
+    bottom: 2px;
+    border: 2px solid white;
+    border-radius: 15px;
+    /* margin-left:'20px' */
+    transform: rotate(6deg);
+}
+
+.logo-middle-line {
+    /* height: '60%'; */
+    border: 2px solid white;
+    transform: rotate(90deg);
+    overflow: hidden;
+}
+
+
+/* car body desigin  */
+
+.car-body {
+    height: 150px;
+    width: 450px;
+}
+
+hr {
+    border-color: #dfdacc;
+    margin: 0px
+}
+
+.top-body {
+    height: 55%;
+    width: 100%;
+    display: flex;
+}
+
+.top-left-body {
+    background-color: #f1edde;
+    height: 100%;
+    width: 20%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 30%;
+}
+
+.top-center-body {
+    background-color: #f1edde;
+    height: 75%;
+    width: 60%;
+    margin-Top: auto;
+}
+
+.top-right-body {
+    background-color: #f1edde;
+    height: 100%;
+    width: 20%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 30%;
+}
+
+.bottom-body {
+    background-color: #f1edde;
+    height: 45%;
+    width: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+}
+
+.bottom-body-box {
+    background-color: #a7a69b;
+    height: 15%;
+    width: 100%;
+}
+
+
+/*  car tyres desigin  */
+
+
+.tyres-container {
+    display: flex;
+    height: 120px;
+    width: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.tyre-body {
+    height: 100%;
+    width: 15%;
+    border-radius: 20%;
+    background-color: #303030;
+}
+
+.connecting-rod {
+    height: 25%;
+    width: 60%;
+    background-color: #303030;
+    margin-top: 60px
+}
+
+
+.frame {
+    background-color: #f1edde;
+    height: 80px;
+    width: 280px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 5px;
+    position: relative;
+    top: 110px;
+    left: 80px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.top-frame {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #0d0823;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    overflow: hidden;
+}
+
+.frame-shadow {
+    background-color: #3d394f;
+    height: 40%;
+    width: 100%;
+    transform: rotate(40deg);
+}
+
+.frame-shadow-2 {
+    background-color: #3d394f;
+    height: 20%;
+    width: 160%;
+    transform: rotate(40deg);
+}
